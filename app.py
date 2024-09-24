@@ -84,8 +84,11 @@ custom_css = """
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 .footer {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;    /* Center vertically */
+    height: 60px;          /* Set a height for the footer */
     font-size: 12px;
-    text-align: center;
     padding-top: 20px;
 }
 #centered-radio {
